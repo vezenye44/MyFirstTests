@@ -25,9 +25,7 @@ class EmailValidator : TextWatcher {
     ) = Unit
 
     companion object {
-        /**
-         * Паттерн для сравнения.
-         */
+
         private val EMAIL_PATTERN = Pattern.compile(
             "[a-zA-Z\\d+._%\\-]{1,256}" +
                     "@" +
